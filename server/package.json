@@ -1,6 +1,7 @@
 {
-  "name": "mern-server",
+  "name": "server",
   "version": "1.0.0",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -11,13 +12,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^4.0.1",
-    "express": "^4.17.1",
-    "faker": "^4.1.0",
+    "bcrypt": "^5.0.1",
+    "express": "^4.18.1",
+    "faker": "^5.5.3",
     "mongoose": "^5.9.9"
   },
   "devDependencies": {
-    "nodemon": "^2.0.3"
-  },
-  "description": ""
+    "nodemon": "^2.0.19"
+  }
 }
